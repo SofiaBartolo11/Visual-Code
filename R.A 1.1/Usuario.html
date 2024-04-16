@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+<body>
+    <form name="Login">
+        <input type="text" placeholder="Usuario" id="pass">
+        <input type="password" placeholder="password" id="pass">
+    </form>
+    <script>
+        Var User="Analista";
+        Var pass="405";
+        Var Usuario=Documento.getElementbyld("Usuario").value;
+        Var password=Documento.getElementbyld("pass").value;
+        if(Usuario==""){
+            alert("Digita tu Usuario");
+        }
+        else if(password="");{
+            alert("Digita tu password");
+        }
+        else{
+            if(User=Usuario and pass==password ){
+                alert("Bienvenido");
+        }
+        else{
+            alert("Usuario invalido");
+        }
+    }    
+    </script>
+</body>
+</html>
